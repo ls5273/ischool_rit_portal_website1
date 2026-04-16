@@ -1,4 +1,4 @@
-iSCHOOL @ RIT PORTAL WEBSITE
+iSCHOOL @ RIT PORTAL WEBSITE 1
 
 Overview:
 - The iSchool @ RIT web application is a dynamic, single-page React interface designed to present academic, professional, and faculty information. The application seamlessly connects to external APIs to fetch and display live data regarding undergraduate and graduate degree programs, co-op and employment outcomes, and a comprehensive faculty directory.
