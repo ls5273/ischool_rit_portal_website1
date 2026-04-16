@@ -1,12 +1,18 @@
-# React + Vite
+iSCHOOL @ RIT PORTAL WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview:
+- The iSchool @ RIT web application is a dynamic, single-page React interface designed to present academic, professional, and faculty information. The application seamlessly connects to external APIs to fetch and display live data regarding undergraduate and graduate degree programs, co-op and employment outcomes, and a comprehensive faculty directory.
 
-Currently, two official plugins are available:
+Key Features:
+- Live Data Integration: Utilizes axios to perform asynchronous HTTP requests, fetching live institutional data directly from the iSchool API.
+- Optimized Concurrent Fetching: Employs Promise.all to execute parallel API requests (such as fetching both undergraduate and graduate data simultaneously), significantly reducing load times.
+- Robust State Management: Heavily utilizes React hooks (useState, useEffect) to cleanly manage data arrays, loading spinners, and error-handling states across all components.
+- Interactive UI Toggles: Features dynamic user controls to filter and expand content on the fly, such as toggling between Co-op and Professional Employment tables, revealing degree concentrations, or expanding the faculty grid.
+- Safe HTML Injection: Securely renders raw HTML strings (like copyright and legal links) directly from JSON data using React's dangerouslySetInnerHTML.
+- Simulated Asynchronous Loading: Implements setTimeout combined with dynamic imports to simulate API loading states for local JSON data files, ensuring a consistent user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack:
+- Frontend Library: React (implemented with a component-driven architecture and functional hooks).
+- Data Fetching: Axios (for promise-based HTTP requests).
+- UI Components & Styling: Material UI (MUI) combined with custom, scoped CSS for responsive grid layouts and interactive elements.
+- Build Tool: Vite (configured for fast, modern module bundling).
