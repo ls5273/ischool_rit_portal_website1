@@ -1,0 +1,32 @@
+{
+    "social": {
+        "title": "Our Social Presence",
+        "tweet": "WE'RE READY! ARE YOU? #RIT https://t.co/NXHaXKjBWu",
+        "by": "@ISTatRIT via Twitter",
+        "twitter": "https://twitter.com/istatrit",
+        "facebook": "https://www.facebook.com/ISTatRIT"
+    },
+    "quickLinks": [
+        {
+            "title": "Apply Now",
+            "href": "http://www.rit.edu/admission.html"
+        },
+        {
+            "title": "About This Site",
+            "href": "http://ist.rit.edu/assets/includes/calls/calls.php?area=aboutSite"
+        },
+        {
+            "title": "Support iSchool",
+            "href": "http://ist.rit.edu/assets/includes/calls/calls.php?area=supportIST"
+        },
+        {
+            "title": "Lab Hours",
+            "href": "http://ist.rit.edu/assets/includes/resources/calls.php?area=tutors"
+        }
+    ],
+    "copyright": {
+        "title": "Copyright",
+        "html": "<p>Copyright \u00a9 <a href=\"http://www.rit.edu/\">Rochester Institute of Technology</a>. All Rights Reserved .<br><a href=\"http://www.rit.edu/copyright.html\">Copyright Infringement</a>&nbsp;|&nbsp;<a href=\"http://www.rit.edu/privacystatement.html\">Privacy Statement</a>&nbsp;|&nbsp;<a href=\"http://www.rit.edu/disclaimer.html\">Disclaimer</a>&nbsp;|&nbsp;<a href=\"http://www.rit.edu/nondiscrimination.html\">Nondiscrimination</a></p>"
+    },
+    "news": "http://ist.rit.edu/~istdev/api/news/"
+}

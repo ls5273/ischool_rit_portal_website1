@@ -1,0 +1,117 @@
+.contact {
+    background-color: #FF7A00; 
+    color: #FFF6EF;
+    padding: 1.5rem 0; 
+    width: 100%;
+}
+
+.contactContent {
+    max-width: 1400px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem; 
+}
+
+.contactContent h2 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+.tweet {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.75rem 1.2rem;
+    border-radius: 8px;
+    max-width: 700px;
+}
+
+.tweet span {
+    display: block;
+    font-weight: 600;
+    color: white;
+    margin-top: 0.25rem;
+}
+
+.socialLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.socialLinks a {
+    color: #FFF6EF;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.socialLinks a:hover {
+    background-color: #FFB347;
+    color: #4B2E05;
+    border-color: #FFB347;
+}
+
+.quickLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.quickLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.quickLinks a:hover {
+    color: #FFB347;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.toggleButton {
+    background-color: #FF7A00;
+    color: white;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggleButton:hover {
+    background-color: #e96c00;
+}
+
+.toggleButton:active {
+    background-color: #cc5e00;
+}
+
+.loadingSpinner {
+    display: block;
+    margin: 2rem auto;
+}
